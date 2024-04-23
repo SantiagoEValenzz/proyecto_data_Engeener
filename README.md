@@ -1,10 +1,5 @@
-#Primer Proyecto de Ingeniería de Datos: Uber Data Analysis End to End Project
-===============
-
-
-##hola como stan ##
-----------
-
+Primer Proyecto de Ingeniería de Datos: Uber Data Analysis
+==========================================================
 
 Como ingeniero de datos profesional, me encanta el desafío de tomar datos sin procesar de diferentes fuentes y trabajar duro para limpiar, transforme y embellezca los datos para que puedan convertirse en un formato utilizable por parte de las empresas o los analistas de datos. Sin embargo, trabajar en una organización como ingeniero de datos puede conducir a ciertas fases magras cuando los proyectos o desafíos no son suficientes para que la adrenalina bombee. Fue entonces cuando tuve la suerte de encontrarme con el canal        
 . Su fantástico canal me ayudó a trabajar en un gran proyecto de ingeniería de datos con Uber Data Analysis (https://www.youtube.com/watch?v=WpQECq5Hx9g). Como compañero ingeniero de datos, el canal de Darshililis realmente me ha ayudado a centrarme más en mis proyectos y también a aprender mucho sobre plataformas en la nube como AWS y GCP. Seguí el video más reciente de Darshilil sobre Uber Data Analysis y mi fin de semana pasó de ‘meh’ a ‘oh yeahhhh’. Hablaré sobre el proyecto y los diferentes componentes que utilicé en el proyecto. Antes de comenzar el proyecto, es importante entender que este proyecto no es para un principiante absoluto en ingeniería de datos. La expectativa es que antes de este proyecto, debe tener una comprensión básica de las tecnologías en la nube, SQL, programación Python y alguna idea sobre el modelado de datos y ETL. Si alguno de estos términos parece extraño y aterrador, comuníquese conmigo y estaré encantado de ayudarlo a comenzar con lo básico.

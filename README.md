@@ -1,5 +1,5 @@
-Primer Proyecto de Ingeniería de Datos: Uber Data Analysis End to End Project
-
+#Primer Proyecto de Ingeniería de Datos: Uber Data Analysis End to End Project
+hola como stan ##
 
 
 Como ingeniero de datos profesional, me encanta el desafío de tomar datos sin procesar de diferentes fuentes y trabajar duro para limpiar, transforme y embellezca los datos para que puedan convertirse en un formato utilizable por parte de las empresas o los analistas de datos. Sin embargo, trabajar en una organización como ingeniero de datos puede conducir a ciertas fases magras cuando los proyectos o desafíos no son suficientes para que la adrenalina bombee. Fue entonces cuando tuve la suerte de encontrarme con el canal        

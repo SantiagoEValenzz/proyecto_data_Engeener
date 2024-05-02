@@ -11,6 +11,7 @@ Vamos a trabajar con datos similares a los de Uber, pero no exactamente iguales.
 Nuestro objetivo es almacenar estos datos en Google Cloud Storage y luego usar Mage para organizarlos. Después, los moveremos a Google Big Query y finalmente crearemos un panel de control en Looker Studio para ver y analizar los datos transformados.
 
 [![flujo-de-datos.png](https://i.postimg.cc/1zWSzYHZ/flujo-de-datos.png)](https://postimg.cc/PL893y96)
+
 *Flujo de Datos de Fin a Fin para el Proyecto.*
 
 

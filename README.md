@@ -67,6 +67,8 @@ Puede seguir este enlace para instalar Jupyter notebook en su sistema — [Insta
 Ahora que se ordenan algunas terminologías básicas, podemos avanzar a la parte de ejecución del proyecto. Idealmente deberíamos comenzar el proyecto con modelado de datos ya que eso es la parte más básica de cualquier proyecto de datos. Podemos descargar los datos del registro de taxis de Nueva York en nuestros cuadernos Jupyter para analizar los datos en un formato tabular. Los datos de todos los años están disponibles en el sitio web en muchos formatos diferentes.
 
 **MODELADO DE DATOS**:
+
+
 [![modelado-de-datos.png](https://i.postimg.cc/v8xyQhxp/modelado-de-datos.png)](https://postimg.cc/ThxF0r99)
 
 Podemos ver los datos en forma tabular usando Jupyter Notebooks usando el paquete Pandas en Python.

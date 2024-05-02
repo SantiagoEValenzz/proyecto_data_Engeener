@@ -31,7 +31,9 @@ Puede seguir este enlace para instalar Jupyter notebook en su sistema — [Insta
 
 
 
-[![consola-de-jupiter.png](https://i.postimg.cc/zfD581Tj/consola-de-jupiter.png)](https://postimg.cc/75RjndsG) *Consola Jupyter Notebok*
+[![consola-de-jupiter.png](https://i.postimg.cc/zfD581Tj/consola-de-jupiter.png)](https://postimg.cc/75RjndsG) 
+
+*Consola Jupyter Notebok*
 
 
 
@@ -43,6 +45,7 @@ Puede seguir este enlace para instalar Jupyter notebook en su sistema — [Insta
 [Sitio web de Mage](https://www.mage.ai/).
 
 [![mago-ia.png](https://i.postimg.cc/fLphctp2/mago-ia.png)](https://postimg.cc/34X67RKm) 
+
 *Mago.ai*
  
 3. **Lucidchart**: Lucidchart es un software de diagramación que le ayuda a crear diagramas de diseño, diagramas de flujo, etc para su proyecto. Esta herramienta visual es útil cuando queremos explicar un flujo de extremo a extremo de cualquier proyecto, módulo a cualquier persona que pueda o no hablar la terminología tecnológica. La versión gratuita puede ayudarlo a crear hasta tres diagramas — [Sitio web de Lucidchart](https://www.lucidchart.com/).
@@ -57,7 +60,9 @@ Puede seguir este enlace para instalar Jupyter notebook en su sistema — [Insta
 [Diccionario de Datos NYC](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf).
 
 
-[![diccionario-de-datos.png](https://i.postimg.cc/qMfTgK8g/diccionario-de-datos.png)](https://postimg.cc/MXY4Fv38) *Diccionario de Datos*
+[![diccionario-de-datos.png](https://i.postimg.cc/qMfTgK8g/diccionario-de-datos.png)](https://postimg.cc/MXY4Fv38)
+
+*Diccionario de Datos*
 
 Ahora que se ordenan algunas terminologías básicas, podemos avanzar a la parte de ejecución del proyecto. Idealmente deberíamos comenzar el proyecto con modelado de datos ya que eso es la parte más básica de cualquier proyecto de datos. Podemos descargar los datos del registro de taxis de Nueva York en nuestros cuadernos Jupyter para analizar los datos en un formato tabular. Los datos de todos los años están disponibles en el sitio web en muchos formatos diferentes.
 
@@ -104,6 +109,7 @@ Si tiene alguna idea básica sobre los servicios en la nube, debe saber que para
 Cuando cree el cubo, asegúrese de que su público pueda acceder a él utilizando una URL. Sin embargo, esa no es la forma más segura de construir eso mientras se trabaja en un proyecto de grado de producción.
  
 [![accesopublico.png](https://i.postimg.cc/761D1Y1S/accesopublico.png)](https://postimg.cc/62QDtKmQ)
+
 *Otorgar acceso público al cubo*
 
 Una vez que se haya realizado el depósito, cargue los datos del archivo nyc en el depósito y asegúrese de cambiar los permisos para hacerlo público y accesible a través de la URL. Si te quedas atascado con algún error, consulta ‘Google Cloud y Mage Installation’.
@@ -119,6 +125,7 @@ Dado que nuestro proyecto requiere que Mage se ejecute, instalaremos eso en nues
 
 Una vez que la instalación es exitosa y una vez que ejecute Mage usando el comando ‘ mage start < project_name > ’. Si todo tiene éxito, puede ver a Mage funcionando en el puerto 6789. Para acceder a Mage desde la interfaz de usuario web, necesitaría la IP externa de su VM ( que puede obtener una vez que haga clic en su VM en GCP ). Puede intentar escribir su Ip externo y el puerto para acceder a Mage. Por ejemplo: 35.127.11.11: 6789. Pero por desgracia! No puedes acceder a él. Esto se debe a que no le dijimos explícitamente a la VM que aceptara la solicitud del puerto 6789. Para remediar esto, debe ir a ‘ Firewall ’ en GCP y hacer clic en ‘ crear la regla del firewall ’.
 [![Firewallgcp.png](https://i.postimg.cc/W38CbD6Y/Firewallgcp.png)](https://postimg.cc/BL8Mmnz2)
+
 *Firewall GCP*
 
 En la nueva regla, proporcione detalles y proporcione la IP como 0.0.0.0/0 y mencione el puerto y cree la regla. Esto debería ayudar a abrir la interfaz de usuario de mago.
@@ -127,7 +134,9 @@ En la nueva regla, proporcione detalles y proporcione la IP como 0.0.0.0/0 y men
 
 Mage se parece mucho a otras herramientas de orquestación como Airflow con una gran diferencia. Mage le proporciona muchas plantillas para cargar, transformar datos.
 
-[![Mage-UI-creado-por-Data-Loader-con-API-como-entrada.png](https://i.postimg.cc/fTJpDR35/Mage-UI-creado-por-Data-Loader-con-API-como-entrada.png)](https://postimg.cc/hfRp0g17) *Mage UI creado por Data Loader con API como entrada*
+[![Mage-UI-creado-por-Data-Loader-con-API-como-entrada.png](https://i.postimg.cc/fTJpDR35/Mage-UI-creado-por-Data-Loader-con-API-como-entrada.png)](https://postimg.cc/hfRp0g17) 
+
+*Mage UI creado por Data Loader con API como entrada*
 
 En la sección API puede agregar la URL pública desde la que se pudieron descargar los datos desde Google Cloud Storage. El código se puede ejecutar utilizando el icono de ejecución en la parte superior del archivo del cargador de datos. La salida debe producir el archivo de datos csv NYC .
 
@@ -152,6 +161,7 @@ En el código del transformador de Mageages, agregue los detalles de la tabla co
 En la consola de BigQuery puede ver que se han copiado todas las tablas de dimensiones y hechos. Ahora puede comenzar a consultar desde la consola.
 
 [![consolabigquerry.png](https://i.postimg.cc/RF2s0cJR/consolabigquerry.png)](https://postimg.cc/2bFFcLwb)
+
 *Consola BigQuery para análisis de datos*
 
 Para realizar un análisis detallado y construir un panel de control a partir de nuestros datos, podemos generar una tabla separada utilizando una consulta específica. Esta consulta combina todos los conjuntos de datos necesarios y extrae métricas relevantes para construir el conjunto final de datos que será visualizado en el panel.
@@ -160,13 +170,16 @@ Para realizar un análisis detallado y construir un panel de control a partir de
 
 Ahora que tenemos la tabla específicamente para análisis, podemos comenzar con la construcción de nuestro primer dashboard de control en Looker Studio. Vaya a Google y escriba ‘Google Looker Studio’ y haga clic en el primer enlace . Una vez que se abra la interfaz, haga clic en ‘create blank document’ y cuando obtenga las opciones para seleccionar la fuente, seleccione ‘Google Big Query’ como se muestra a continuación.
 
-[![Bgi-Queryfuente-Lokker.png](https://i.postimg.cc/jqNvXnJp/Bgi-Queryfuente-Lokker.png)](https://postimg.cc/yW1F6djj) * Seleccione BigQuery como fuente en Looker Studio*
+[![Bgi-Queryfuente-Lokker.png](https://i.postimg.cc/jqNvXnJp/Bgi-Queryfuente-Lokker.png)](https://postimg.cc/yW1F6djj)
+
+* Seleccione BigQuery como fuente en Looker Studio*
 
 Después de agregar BigQuery como fuente, es posible que necesites autorizarlo por primera vez. Publica el conjunto de datos y el nombre de la tabla que deseas cargar en el panel, y aparecerá como una tabla en el mismo. Tienes la opción de mantener o eliminar la tabla y diseñar el panel según tu preferencia. ¡Deja que tu creatividad fluya y personaliza tu tablero como desees!
 
 **ESTA ES LA VERSION FINAL DEL DASHBOARD CONSTRUIDO** 
 
 [![dashboard.png](https://i.postimg.cc/7Y93s3PW/dashboard.png)](https://postimg.cc/crKt68nR)
+
 *Uber Dashboard en Looker*
 
 Una vez finalizado este proyecto, mi siguiente paso sería replicarlo para otro caso de uso, ya que me ha brindado una valiosa experiencia en diversas tecnologías y me ha permitido superar varios desafíos en el camino. Espero que disfrutes explorando este fascinante mundo de la ingeniería de datos tanto como yo. También quiero expresar mi gratitud a Codigofacilito por ofrecer un excelente bootcamp de ingeniería de datos.
